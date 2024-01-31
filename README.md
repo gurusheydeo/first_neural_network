@@ -1,4 +1,4 @@
-# first_neural_network
+# first neural network
 Neural Network From Scratch
 
 For some fun, building an extremely basic neural network from scratch. 
