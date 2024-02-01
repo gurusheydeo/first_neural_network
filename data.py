@@ -1,8 +1,5 @@
-# For now just using a simple XOR dataset - ENUM of 4 possible inputs
-
 import numpy as np
-from enum import Enum
 
-
-class DataSet(Enum):
-    
+with np.load('data/mnist.npz', allow_pickle=True) as f:
+    train_X, train_y = f['x_train'], f['y_train']
+    test_X, test_y = f['x_test'], f['y_test']
