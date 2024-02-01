@@ -1,4 +1,4 @@
-# first neural network
+# WIP - First Neural Network
 Neural Network From Scratch
 
 For some fun, building an extremely basic neural network from scratch. 
